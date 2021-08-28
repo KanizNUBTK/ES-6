@@ -1,0 +1,30 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    grid-gap: 10px;
+}
+.divide{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+}
+.country{
+    padding: 10px;
+    border: 2px solid rgb(199, 57, 156);
+    border-radius: 10px;
+    text-align: center;
+}
+button{
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.details-section{
+    margin-bottom: 10px;
+    border: 2px solid rgba(100, 80, 80, 0.253);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
